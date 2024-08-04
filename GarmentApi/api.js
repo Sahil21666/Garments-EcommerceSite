@@ -4,6 +4,9 @@ const app = express();
 const port = 3000;
 const product_routes = require("./router/products")
 const conectDB = require("./connect")
+const cors = require("cors")
+
+app.use(cors());
 
 app.get('/',(req,res)=>{
     res.send("Hi, iam Live now")
