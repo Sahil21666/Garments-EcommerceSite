@@ -1,0 +1,50 @@
+[
+    {
+        "product_name": "churidar leggings - Black",
+        "product_image": {
+            "main": "",
+            "back": "",
+            "side_view_1": "",
+            "side_view_2": ""
+        },
+        "product_rating": 4.9,
+        "product_price": 499.00,
+        "product_type": "Leggings"
+    },
+    {
+        "product_name": "churidar leggings - White",
+        "product_image": {
+            "main": "",
+            "back": "",
+            "side_view_1": "",
+            "side_view_2": ""
+        },
+        "product_rating": 4.9,
+        "product_price": 499.00,
+        "product_type": "Leggings"
+    },
+    {
+        "product_name": "churidar leggings - Frenchwine",
+        "product_image": {
+            "main": "",
+            "back": "",
+            "side_view_1": "",
+            "side_view_2": ""
+        },
+        "product_rating": 4.9,
+        "product_price": 499.00,
+        "product_type": "Leggings"
+    },
+    {
+        "product_name": "churidar leggings - Deep skin",
+        "product_image": {
+            "main": "",
+            "back": "",
+            "side_view_1": "",
+            "side_view_2": ""
+        },
+        "product_rating": 4.9,
+        "product_price": 499.00,
+        "product_type": "Leggings"
+    }
+]
