@@ -1,50 +1,293 @@
-[
-    {
-        "product_name": "churidar leggings - Black",
-        "product_image": {
-            "main": "",
-            "back": "",
-            "side_view_1": "",
-            "side_view_2": ""
+{
+   "Leggings": [
+        {
+            "id": 1,
+            "name": "churidar leggings - Black",
+            "image": {
+                "main": "../images/leggings8.jpg",
+                "back": "../images/leggings11.jpg",
+                "side_view_1": "../images/leggings13.jpg",
+                "side_view_2": "../images/leggings5.jpg"
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Leggings",
+            "description": "",
+            "stock": 50
         },
-        "product_rating": 4.9,
-        "product_price": 499.00,
-        "product_type": "Leggings"
-    },
-    {
-        "product_name": "churidar leggings - White",
-        "product_image": {
-            "main": "",
-            "back": "",
-            "side_view_1": "",
-            "side_view_2": ""
+        {
+            "id": 2,
+            "name": "churidar leggings - White",
+            "image": {
+                "main": "",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Leggings",
+            "description": "",
+            "stock": 50
         },
-        "product_rating": 4.9,
-        "product_price": 499.00,
-        "product_type": "Leggings"
-    },
-    {
-        "product_name": "churidar leggings - Frenchwine",
-        "product_image": {
-            "main": "",
-            "back": "",
-            "side_view_1": "",
-            "side_view_2": ""
+        {
+            "id": 3,
+            "name": "churidar leggings - Frenchwine",
+            "image": {
+                "main": "",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Leggings",
+            "description": "",
+            "stock": 50
         },
-        "product_rating": 4.9,
-        "product_price": 499.00,
-        "product_type": "Leggings"
-    },
-    {
-        "product_name": "churidar leggings - Deep skin",
-        "product_image": {
-            "main": "",
-            "back": "",
-            "side_view_1": "",
-            "side_view_2": ""
+        {
+            "id": 4,
+            "name": "churidar leggings - Deep skin",
+            "image": {
+                "main": "",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Leggings",
+            "description": "",
+            "stock": 50
         },
-        "product_rating": 4.9,
-        "product_price": 499.00,
-        "product_type": "Leggings"
-    }
-]
+        {
+            "id": 5,
+            "name": "churidar leggings - navy",
+            "image": {
+                "main": "",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Leggings",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 6,
+            "name": "churidar leggings - cream",
+            "image": {
+                "main": "",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Leggings",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 7,
+            "name": "churidar leggings - red",
+            "image": {
+                "main": "",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Leggings",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 8,
+            "name": "churidar leggings - green",
+            "image": {
+                "main": "",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Leggings",
+            "description": "",
+            "stock": 50
+        }
+    ],
+   "Jeggings": [
+        {
+            "id": 9,
+            "name": "Jeggings-Texas Blue",
+            "image": {
+                "main": "",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Jeggings",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 10,
+            "name": "Jeggings-Regular Blue",
+            "image": {
+                "main": "",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Jeggings",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 11,
+            "name": "Jeggings-Regular Black",
+            "image": {
+                "main": "",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Jeggings",
+            "description": "",
+            "stock": 50
+        }
+    ],
+   "Fashion_Wear": [
+        {
+            "id": 12,
+            "name": "Woven Kurti Pant-Black",
+            "image": {
+                "main": "",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Fashion Wears",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 13,
+            "name": "Woven Kurti Pant-Cream",
+            "image": {
+                "main": "",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Fashion Wears",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 14,
+            "name": "Woven Kurti Pant-Sand",
+            "image": {
+                "main": "",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Fashion Wears",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 15,
+            "name": "Palazzo-Maroon",
+            "image": {
+                "main": "",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Fashion Wears",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 16,
+            "name": "Woven Kurti Pant-Frenchwine",
+            "image": {
+                "main": "",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Fashion Wears",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 17,
+            "name": "Casual Pant-Cream",
+            "image": {
+                "main": "",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Fashion Wears",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 18,
+            "name": "Woven Kurti Pant-Deep Skin",
+            "image": {
+                "main": "",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Fashion Wears",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 19,
+            "name": "Woven Kurti Pant-Honey",
+            "image": {
+                "main": "",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Fashion Wears",
+            "description": "",
+            "stock": 50
+        }
+    ]
+}

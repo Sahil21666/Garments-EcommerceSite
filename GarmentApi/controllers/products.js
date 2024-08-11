@@ -1,8 +1,7 @@
 const Product = require("../connect");
 
 const getAllProducts =  async (req, res)=>{
-    const mydata = await Product.find();
-    res.status(200).json({mydata})
+    res.status(200).json(await Product.find())
 };
 
 module.exports = getAllProducts;
