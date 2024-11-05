@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #0066cc;
+  color: white;
+  padding: 10px 0;
+}
+
+.nav-bar {
+  list-style: none;
+  text-align: center;
+}
+
+.nav-bar li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav-bar li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-bar li a.active {
+  color: yellow;
+}
+
+.cart-icon {
+  background: url('cart-icon.png') no-repeat;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+
+.cart-count {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 14px;
+  position: relative;
+  top: -8px;
+  left: -10px;
+}
+
+.profile-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.avatar-selection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.avatar-selection label {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  background-color: #0066cc;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-info p {
+  margin: 15px 0;
+}
+
+.contact-info a {
+  color: #0066cc;
+  cursor: pointer;
+}
+
+.address-section {
+  margin-bottom: 20px;
+}
+
+.address-section p {
+  font-size: 16px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.account-management button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#editAddressBtn {
+  background-color: #0066cc;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <ul class="nav-bar">
+        <li><a href="/">Home</a></li>
+        <li><a href="/shop">Shop</a></li>
+        <li><a href="/profile" class="active">Profile</a></li>
+        <li><a href="/cart"><i class="cart-icon"></i><span class="cart-count">12</span></a></li>
+        <li><a href="/logout">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Profile Section -->
+  <main class="profile-container">
+    <h1>User Profile</h1>
+    
+    <!-- Avatar Selection -->
+    <div class="avatar-selection">
+      <label>
+        <input type="radio" name="avatar" value="male">
+        <img src="male-avatar.png" alt="Male Avatar" class="avatar">
+      </label>
+      <span>or</span>
+      <label>
+        <input type="radio" name="avatar" value="female">
+        <img src="female-avatar.png" alt="Female Avatar" class="avatar">
+      </label>
+    </div>
+
+    <!-- Profile Form -->
+    <form id="profileForm">
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" value="Sahil" required>
+      <br>
+
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName" value="Meshram" required>
+      <br>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+
+    <!-- Contact Information -->
+    <div class="contact-info">
+      <p><strong>Mobile Number:</strong> +917741056974 <a href="#" id="updateMobile">Update</a></p>
+      <p><strong>Email ID:</strong> sahilmeshram222@gmail.com <a href="#" id="verifyEmail">Verify</a></p>
+    </div>
+
+    <!-- Address Section -->
+    <div class="address-section">
+      <h2>Address</h2>
+      <p id="address">123 Main Street, City, Country</p>
+      <button id="editAddressBtn">Edit Address</button>
+    </div>
+
+    <!-- Account Management -->
+    <div class="account-management">
+      <button id="deactivateAccount">Deactivate Account</button>
+      <button id="deleteAccount">Delete Account</button>
+    </div>
+  </main>
+
+  <script src="profile.js"></script> <!-- JavaScript functionality -->
+</body>
+</html>

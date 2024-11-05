@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .item-details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .gallery {
+            max-width: 600px;
+        }
+
+        .main-image img {
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .main-image img.fade-out {
+            opacity: 0;
+        }
+
+        .thumbnails {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 10px;
+        }
+
+        .thumbnails img {
+            width: 100px;
+            cursor: pointer;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-right: 5px;
+        }
+
+        .details {
+            max-width: 400px;
+        }
+
+        .details h2 {
+            margin-top: 0;
+        }
+
+        .details p {
+            margin: 10px 0;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        select,
+        input {
+            height: 6vh;
+            width: 30%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 48%;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        .tabs {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .tab-button {
+            background-color: #eee;
+            border: none;
+            width: 100px;
+            color: black;
+            border-radius: 5px solid black;
+            cursor: pointer;
+            margin-right: 5px;
+            padding: 10px 20px;
+        }
+
+        .tab-button:hover {
+            background-color: #ddd;
+        }
+
+        .tab-content {
+            display: none;
+            opacity: 0;
+            text-align: center;
+            transition: opacity 0.5s ease-in-out;
+            margin-top: 10px;
+        }
+
+        .tab-content .fade-in {
+            display: block;
+            opacity: 1;
+        }
+
+        .tab-content .fade-out {
+            opacity: 0;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        #fixed-product-section {
+            position: fixed;
+            height: 7%;
+            width: 100%;
+            bottom: 10px;
+            left: 10px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: none;
+            justify-content: space-between;
+            flex-direction: row;
+            z-index: 1000;
+        }
+
+        #fixed-product-section img.product-image {
+            position: relative;
+            left: 10px;
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        #fixed-product-section .product-details {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .des-div {
+            margin-left: 10px;
+        }
+
+        #fixed-product-section .product-name,
+        #fixed-product-section .product-price {
+            margin: 3px;
+            padding: 3px;
+        }
+
+        #fixed-product-section .product-quantity {
+            width: 50px;
+            margin-bottom: 5px;
+        }
+
+        .add-to-cart-btn,
+        .buy-now-btn {
+            padding: 5px 35px;
+            float: right;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-top: 5px;
+        }
+
+        #fixed-product-section button.add-to-cart-btn:hover,
+        #fixed-product-section button.buy-now-btn:hover {
+            background-color: #218838;
+        }
+
+        #cartbtn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 130px;
+            height: 6vh;
+        }
+
+        #buybtn {
+            height: 6vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 130px;
+        }
+
+        #product-quantity {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1.1rem;
+        }
+
+        .left-side {
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .right-side {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 40%;
+
+        }
+
+        .right-sec {
+            margin: 2px;
+
+        }
+
+        .card-container{
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-bottom: 100px;
+        }
+        .card{
+            padding: 20px;
+        }
+
+        .card img{
+            height: 471px;
+            width: 262px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Item Details</h1>
+    </header>
+    <main>
+        <div class="item-details">
+            <div class="gallery">
+                <div class="main-image">
+                    <img id="current-image" src="" alt="Front View">
+                </div>
+                <div class="thumbnails">
+                    <img src="" id="img1" alt="Front View" onclick="changeImage(src)">
+                    <img src="" id="img2" alt="Back View" onclick="changeImage(src)">
+                    <img src="" id="img3" alt="Side View 1" onclick="changeImage(src)">
+                    <img src="" id="img4" alt="Side View 2" onclick="changeImage(src)">
+                </div>
+            </div>
+            <div class="details">
+                <h3 class="product-name"></h3>
+                <p class="product-price"></p>
+
+                <label for="size">Size:</label>
+                <select id="size" name="size">
+                    <option value="S">Small</option>
+                    <option value="M">Medium</option>
+                    <option value="L">Large</option>
+                    <option value="XL">Extra Large</option>
+                </select>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" value="1" min="1" max="10">
+
+                <div class="buttons">
+                    <button onclick="addToCart()">Add to Cart</button>
+                    <button onclick="buyNow()">Buy Now</button>
+                </div>
+            </div>
+
+        </div>
+        <div>
+            <div class="tabs">
+                <button class="tab-button" onclick="toggleSection('description')">Description</button>
+                <button class="tab-button" onclick="toggleSection('shipping')">Shipping</button>
+                <button class="tab-button" onclick="toggleSection('returns')">Returns</button>
+            </div>
+
+            <div id="description" class="tab-content  ">
+                <p>This is a detailed description of Cloth 1, highlighting its features, materials, and any other
+                    relevant information.</p>
+            </div>
+            <div id="shipping" class="tab-content">
+                <p>Shipping Information: We offer free shipping on all orders over $50. Delivery within 5-7 business
+                    days.</p>
+            </div>
+            <div id="returns" class="tab-content">
+                <p>Return Policy: You can return any item within 30 days of purchase for a full refund.</p>
+            </div>
+        </div>
+        <div>
+            <h2>More Item Like This</h2>
+        </div>
+
+        <div class="card-container">
+            <div class="card" data-price="300">
+                <img src="/images/leggings8.jpg" alt="Cloth 1">
+                <div class="card-content">
+                    <h2>Cloth 1</h2>
+                    <p>Price: $300</p>
+                </div>
+            </div>
+            <div class="card" data-price="400">
+                <img src="/images/leggings14.jpg" alt="Cloth 2">
+                <div class="card-content">
+                    <h2>Cloth 2</h2>
+                    <p>Price: $400</p>
+                </div>
+            </div>
+            <div class="card" data-price="500">
+                <img src="/images/jeggings regular black main.webp" alt="Cloth 3">
+                <div class="card-content">
+                    <h2>Cloth 3</h2>
+                    <p>Price: $500</p>
+                </div>
+            </div>
+            <div class="card" data-price="300">
+                <img src="/images/Leggings11.jpg" alt="Cloth 1">
+                <div class="card-content">
+                    <h2>Cloth 1</h2>
+                    <p>Price: $300</p>
+                </div>
+            </div>
+            <div class="card" data-price="400">
+                <img src="/images/leggings12.jpg" alt="Cloth 2">
+                <div class="card-content">
+                    <h2>Cloth 2</h2>
+                    <p>Price: $400</p>
+                </div>
+            </div>
+            <div class="card" data-price="500">
+                <img src="/images/leggings13.jpg" alt="Cloth 3">
+                <div class="card-content">
+                    <h2>Cloth 3</h2>
+                    <p>Price: $500</p>
+                </div>
+                <!-- Add more cards as needed -->
+            </div>
+
+            <!-- Fixed Product Section -->
+            <div id="fixed-product-section">
+                <div class="left-side"><img src="" id="fixed-image" alt="Product Thumbnail" class="product-image">
+                    <div class="des-div">
+                        <h4 class="fixed-product-name"></h3>
+                        <p class="fixed-product-price"></p>
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <input type="number" class="right-sec" id="product-quantity  " value="1" min="1" max="10">
+                    <button class="right-sec" id="cartbtn" onclick="addToCart()">Add to Cart</button>
+                    <button class="right-sec" id="buybtn" onclick="buyNow()">Buy Now</button>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
+
+</main>
+<!-- <footer>
+        <p>&copy; 2024 Garments Store. All rights reserved.</p>
+    </footer> -->
+<script>
+    function changeImage(imageSrc) {
+        const mainImage = document.getElementById('current-image');
+        mainImage.classList.add('fade-out');
+        setTimeout(() => {
+            mainImage.src = imageSrc;
+            mainImage.classList.remove('fade-out');
+        }, 500);
+    }
+
+    function addToCart() {
+        const size = document.getElementById('size').value;
+        const quantity = document.getElementById('quantity').value;
+        alert(`Added to cart! Size: ${size}, Quantity: ${quantity}`);
+    }
+
+    function buyNow() {
+        // const size = document.getElementById('size').value;
+        // const quantity = document.getElementById('quantity').value;
+        // // alert(`Proceeding to buy! Size: ${size}, Quantity: ${quantity}`);
+        // window.location.href = `/purchase/${newdata.name}`
+         window.location.href = `../Purchase/purchasePage.html`
+    }
+
+    function toggleSection(sectionId) {
+        const sections = document.querySelectorAll('.tab-content');
+        sections.forEach(section => {
+            if (section.id === sectionId) {
+                section.style.display = 'block';
+
+                section.classList.add('fade-in');
+            } else {
+                section.style.display = 'none';
+
+                section.classList.remove('fade-in');
+            }
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        toggleSection('description');
+    });
+
+    const data = localStorage.getItem("data");
+    const newdata = JSON.parse(data);
+    console.log(newdata.name);
+
+    document.querySelector(".product-name").textContent = newdata.name;
+    document.querySelector(".product-price").textContent = newdata.price;
+    
+    document.getElementById("current-image").src=newdata.image.main;
+    document.getElementById("img1").src=newdata.image.main;
+    document.getElementById("img2").src=newdata.image.back;
+    document.getElementById("img3").src=newdata.image.side_view_1;
+    document.getElementById("img4").src=newdata.image.side_view_2;
+
+    document.getElementById("fixed-image").src=newdata.image.main;
+
+    document.querySelector(".fixed-product-name").textContent = newdata.name;
+    document.querySelector(".fixed-product-price").textContent = newdata.price;
+
+    const fixedSection = document.getElementById('fixed-product-section');
+    const buyButton = document.querySelector('.details .buttons button:last-child');
+
+    window.addEventListener('scroll', () => {
+        const buyButtonOffset = buyButton.getBoundingClientRect().bottom + window.scrollY;
+
+        if (window.scrollY > buyButtonOffset) {
+            fixedSection.style.display = 'flex';
+        } else {
+            fixedSection.style.display = 'none';
+        }
+    });
+</script>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 10px;
+    background-color: #fff;
+    height:60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.searchbtn {
+    font-size: 1rem;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+
+}
+
+::placeholder {
+    font-size: 1rem;
+    color: #555;
+}
+
+#searchInput {
+    flex: 1;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 1rem;
+    color: #333;
+
+}
+#SearchInput {
+    flex: 1;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 1rem;
+    color: #333;
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    height: 15px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.images {
+    height: 340px;
+    width: 220px;
+
+}
+
+.productContainerouter {
+    display: flex;
+    flex-direction: row;
+    /* overflow: hidden; */
+}
+
+.productContainerouter {
+    display: flex;
+    flex-direction: row;
+    /* overflow: hidden; */
+}
+
+.productContainer {
+    flex-direction: row;
+    padding: 15px;
+}
+
+.resultcontainer {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.resultcontainer li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.resultcontainer li:last-child {
+    border-bottom: none;
+}
+
+/* Product suggestions container */
+.product-suggestions {
+    /* Hidden by default */
+    position: absolute;
+    top: 60px;
+    /* Adjust according to your header height */
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Suggestions container cards */
+.suggestions-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    margin-left: 10px;
+    overflow-x: auto;
+}
+
+.suggestions-container::-webkit-scrollbar {
+    display: none;
+}
+
+.nav-item {
+    display: inline;
+    position: absolute;
+    right: 10%;
+    top: 35%;
+}
+
+.card {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+}

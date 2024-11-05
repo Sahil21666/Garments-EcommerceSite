@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garments Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Purchase Item</h1>
+    </header>
+    <main>
+        <form id="purchase-form">
+            <section>
+                <h2>Customer Information</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </section>
+
+            <section>
+                <h2>Shipping Address</h2>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" required>
+
+                <label for="zip">Zip Code:</label>
+                <input type="text" id="zip" name="zip" required>
+
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country" required>
+            </section>
+
+            <section>
+                <h2>Payment Information</h2>
+                <label for="card-name">Name on Card:</label>
+                <input type="text" id="card-name" name="card-name" required>
+
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" name="card-number" required>
+
+                <label for="exp-date">Expiration Date:</label>
+                <input type="text" id="exp-date" name="exp-date" required>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+            </section>
+
+            <section>
+                <h2>Order Summary</h2>
+                <p id="productname"></p>
+                <p id="productprice"></p>
+                <p>Quantity: 1</p>
+                <p id="TotalPrice">Total: Rs.30</p>
+            </section>
+
+            <button type="submit" >Place Order</button>   
+        </form>
+    </main>
+    <!-- <footer>
+        <p>&copy; 2024 Garments Store. All rights reserved.</p>
+    </footer> -->
+    <script>
+        const name = document.getElementById("productname")
+        const price = document.getElementById("productprice")
+
+         const data = JSON.parse(localStorage.getItem("data"))
+       const productname = data.name
+
+       const productprice = data.price
+        name.textContent = `Product :${productname}`
+        price.textContent = `Price :${productprice}`
+
+          Number(productprice)
+        
+        document.getElementById("TotalPrice").textContent = `Total : Rs.${productprice*1}`
+
+        //payment process
+
+        function processPayment() {
+            // Simulate payment processing delay
+            setTimeout(function() {
+                // Randomly determine payment success or failure
+                const isSuccess = Math.random() > 0.5;
+
+                // Redirect based on the outcome
+                if (isSuccess) {
+                    window.location.href = '../PurchaseStatus/PaymentSuccess.html';
+                } else {
+                    window.location.href = '../PurchaseStatus/PaymentFailed.html';
+                }
+            }, 2000); // 2-second delay to simulate processing
+
+        }
+
+        document.getElementById('purchase-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            processPayment()
+        });
+    </script>
+</body>
+
+</html>

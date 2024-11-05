@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"  >
+    <title>iGarment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/SearchinputStyle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .SearchSection {
+            display: none;
+        }
+        .inputBox {
+            flex: 1;
+            display: inline;
+            text-align: left;
+            padding: 6px;
+            width: 20px;
+            height: 17px;
+            background: transparent;
+            border: 0;
+            outline: 0;
+            font-size: 1rem;
+            color: #333;
+
+        }
+        ::placeholder {
+            font-size: 0.7rem;
+            color: #555;
+        }
+
+        .searchBtn {
+            background-color: transparent;
+            border: 0;
+            outline: 0;
+            cursor: pointer;
+        }
+
+        .Row {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            background-color: white;
+            position: absolute;
+            left: 20%;
+            height: 20px;
+            width: 140px;
+            border: 2px solid black;
+            border-radius: 2px;
+        }
+        .Auth{
+            display: flex;
+            flex-direction: row;
+            position: absolute;
+            right: 10%;
+        }
+        .auth{
+         padding-right: 30px;
+        }
+
+        #profile{
+            display: none;
+        }
+
+    </style>
+</head>
+
+<body>
+    <section class="SearchSection" id="SearchSection">
+        <div class="navbar" id="Navbar">
+            <!-- Your navigation items -->
+            <div class="row">
+                <input type="text" class="InputBox" id="SearchInput" placeholder="Search products"><button
+                    class="searchbtn"><i class=" fa fa-search"></i></button>
+            </div>
+            <div>
+                <li class="nav-item">
+                    <a href="./addToCart.html" class="nav-link add-to-cart-button" id="cartValue">
+                        <i class="fa-solid fa-cart-shopping"> 0 </i>
+                    </a>
+                </li>
+            </div>
+        </div>
+        <div class="product-suggestions" id="productSuggestions">
+            <div class="suggestions-container">
+                <!-- Product suggestion cards will appear here -->
+                <div class="resultcontainer" id="resultcontainer">
+
+                </div>
+                <!-- Add more product cards dynamically -->
+            </div>
+        </div>
+    </section>
+    <div class="container1" id="container1">
+        <h3 class="heading" id="header">iGarment</h3>
+        <div class="container">
+            <ul class="heading">
+                <li id="searchfield">
+                    <div class="Row" id="Row"> <input type="text" class="inputBox" id="searchInput"
+                            placeholder="Search products" onclick="displaySearchSection()"><button class="searchBtn"
+                            onclick="displaySearchSection()"><i class=" fa fa-search"></i></button></div>
+                </li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact" style="width: 1rem;">Contact Us</a></li>
+                <li>
+                    <a href="./addToCart.html" class="nav-link add-to-cart-button" id="cartValue">
+                        <i class="fa-solid fa-cart-shopping"> 0 </i>
+                    </a>
+                </li>
+                <li> <div class="Auth">
+                    <a class="auth" id="profile" href="/profile">Profile</a>
+                    <a class="auth" id="login" href="/login">Login</a>
+                    <a class="auth" id="signup" href="/signup">Signup</a>
+                </div>
+            </li>
+               
+            </ul>
+        </div>
+        <br>
+        <br>
+        <h1 class="heading1">Welcome to iGarment</h1>
+        <br>
+        <br>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div id="slider-image1" class="swiper-slide"><img src="../images/PRI_051_WebBanner-03.jpg"
+                        alt="Image 1"></div>
+                <div id="slider-image2" class="swiper-slide"><img src="../images/PRI_Feb_WebBanner-03.jpg"
+                        alt="Image 2"></div>
+                <div id="slider-image3" class="swiper-slide"><img src="../images/PRI_Feb_WebBanner-05.jpg"
+                        alt="Image 3"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <br>
+    <h2 style="text-align: center;">Shop for Women</h2>
+    <div class="container-woomen">
+        <a href="./Pages/Leggings.html">
+            <div class="woomen-card">
+                <img src="/images/Leggings.jpg" alt="image not rendered" class="woomen-img">
+                <h3>Leggings</h3>
+            </div>
+        </a>
+        <a href="./Pages/Jeggings.html">
+            <div class="woomen-card">
+                <img src="/images/jeggings.jpg" alt="image not rendered" class="woomen-img">
+                <h3>Jeggings</h3>
+
+            </div>
+        </a>
+        <a href="./Pages/Fashionwear.html">
+            <div class="woomen-card">
+                <img src="/images/fashion wear.jpg" alt="image not rendered" class="woomen-img">
+                <h3>Fashion Wear</h3>
+
+            </div>
+        </a>
+        <a href="./Pages/Innerwear.html">
+            <div class="woomen-card">
+                <img src="/images/inner wear.jpg" alt="image not rendered" class="woomen-img">
+                <h3>Inner Wear</h3>
+
+            </div>
+        </a>
+        <a href="./Pages/Activewear.html">
+            <div class="woomen-card">
+                <img src="/images/active wear.jpg" alt="image not rendered" class="woomen-img">
+                <h3>Active Wear</h3>
+
+            </div>
+        </a>
+        <a href="./Pages/Accesories.html">
+            <div class="woomen-card">
+                <img src="/images/accesories.jpg" alt="image not rendered" class="woomen-img">
+                <h3>Accesories</h3>
+
+            </div>
+        </a>
+        <a href="./Pages/Blouse.html">
+            <div class="woomen-card">
+                <img src="/images/blouse.jpg" alt="image not rendered" class="woomen-img">
+                <h3>Blouse</h3>
+
+            </div>
+        </a>
+    </div>
+    <h2 style="text-align: center;"> Trending Now</h2>>
+
+    <div class="button">
+        <div class="buttons"> <button class="btn" onclick="openNewarrival()" id="btn1">New arrival</button></div>
+        <div class="buttons"> <button class="btn" onclick="openBestseller()" id="btn2">Best Seller</button></div>
+    </div>
+
+    <div class="container-contents">
+        <div class="relative-wrapper">
+            <div id="new-arrival" class="content">
+
+            </div>
+            <div id="bestseller" class="content">
+
+            </div>
+        </div>
+
+    </div>
+
+    <template id="Product-template1">
+        <div class="card-new-arrival" id="cardValue1">
+            <div class="imageContainer"><img class="productimage" src="" alt=""></div>
+            <h3 class="productname"></h3>
+            <h4 class="productprice"></h4>
+        </div>
+
+    </template>
+    <template id="Product-template2">
+        <div class="card-bestseller" id="cardValue2">
+            <div class="imageContainer"><img class="productimage" src="" alt=""></div>
+            <h3 class="productname"></h3>
+            <h4 class="productprice"></h4>
+        </div>
+
+    </template>
+    <br>
+    <h2 style="text-align: center;">Shop for Men</h2>
+    <div class="container-woomen">
+        <a href="./Pages/Bermudas.html">
+            <div class="woomen-card">
+                <img src="/images/bermudas men.jpg" alt="image not rendered" class="woomen-img">
+                <h3>Bermudas</h3>
+            </div>
+        </a>
+        <a href="./Pages/Capri.html">
+            <div class="woomen-card">
+                <img src="/images/capri men 1.jpg" alt="image not rendered" class="woomen-img">
+                <h3>Capri</h3>
+
+            </div>
+        </a>
+        <a href="./Pages/Trackpant.html">
+            <div class="woomen-card">
+                <img src="/images/track pant men 1.jpg" alt="image not rendered" class="woomen-img">
+                <h3>Track Pant</h3>
+
+            </div>
+        </a>
+        <a href="./Pages/Trackpantslimfit.html">
+            <div class="woomen-card">
+                <img src="/images/track pant slim fit men1.jpg" alt="image not rendered" class="woomen-img">
+                <h3>Track Pant Slim Fit</h3>
+
+            </div>
+        </a>
+        <a href="./Pages/Joggers.html">
+            <div class="woomen-card">
+                <img src="/images/Joggers men 1.jpg" alt="image not rendered" class="woomen-img">
+                <h3>Joggers</h3>
+
+            </div>
+        </a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container-shipping">
+        <div class="shipping-card" id="card1">
+            <div class="pngdiv"> <img src="./images/free-delivery.png" alt=""></div>
+            <h4> Free Shipping</h4>
+            <p> Get FREE Shipping for all Prepaid Orders.
+
+                COD available</p>
+        </div>
+        <div class="shipping-card" id="card2">
+            <div class="pngdiv"> <img src="./images/shield.png" alt=""></div>
+            <h4>100% Safe & Secure Checkout </h4>
+            <p> Most Secure Online Payment Options</p>
+        </div>
+        <div class="shipping-card" id="card3">
+            <div class="pngdiv"> <img src="./images/care.png" alt=""> </div>
+            <h4> Best In-Class Support</h4>
+            <p> Any Trouble, We Are There for You </p>
+        </div>
+    </div>
+
+    <!-- ========== Start footer Section ========== -->
+    <footer class="section-footer">
+        <div class="footer-container container">
+            <div class="content_1">
+                <img src="./images/logo.png" alt="logo" />
+                <p>
+                    Welcome iGarment EcomStore, your ultimate destination for
+                    cutting-edge products!
+                </p>
+                <img src="https://i.postimg.cc/Nj9dgJ98/cards.png" alt="cards" />
+            </div>
+            <div class="content_2">
+                <h4>SHOPPING</h4>
+                <a href="#">Fashion Store</a>
+                <a href="#">handlooms Store</a>
+                <a href="#">Accessories</a>
+                <a href="#">Sales & Discount</a>
+            </div>
+            <div class="content_3">
+                <h4>Experience</h4>
+                <a href="./contact.html">Contact Us</a>
+                <a href="" target="_blank">Payment Method</a>
+                <a href="" target="_blank">Delivery</a>
+                <a href="" target="_blank">Return and Exchange</a>
+            </div>
+            <div class="content_4">
+                <h4>NEWSLETTER</h4>
+                <p>Be the first to know about new<br />arrivals, sales & promos!</p>
+                <div class="f-mail">
+                    <input type="email" placeholder="Your Email" />
+                    <i class="bx bx-envelope"></i>
+                </div>
+                <hr />
+            </div>
+        </div>
+        <div class="f-design">
+            <div class="f-design-txt">
+                <p>&copy; 2024 Garments Store. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- swiper silder -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <script>
+        const cartValue = document.querySelector("#cartValue");
+
+        const searchsection = document.querySelector("#SearchSection")
+
+
+
+        const SearchInput = document.getElementById('SearchInput');
+
+
+
+        function navigateToPage(url) {
+            window.location.href = url;
+        }
+        var newarrival = document.getElementById("new-arrival")
+        var bestseller = document.getElementById("bestseller")
+
+        function openNewarrival() {
+            newarrival.style.transform = "translateX(0)"
+            bestseller.style.transform = "translateX(100%)"
+        }
+        function openBestseller() {
+            bestseller.style.transform = "translateX(0)"
+            newarrival.style.transform = "translateX(100%)"
+        }
+
+       
+
+
+    </script>
+    <script src="index.js"></script>
+    <script src="Search.js"></script>
+    <script src="script.js" type="module"></script>
+    <script src="./AddtoCart/addToCart.js" type="module"></script>
+    <script src="./AddtoCart/fetchQuantityFromCartLS.js" type="module"></script>
+    <script src="./AddtoCart/getCartProducts.js" type="module"></script>
+    <script src="./AddtoCart/incrementDecrement.js" type="module"></script>
+    <script src="./AddtoCart/updateCartValue.js" type="module"></script>
+    <script src="./AddtoCart/showToast.js" type="module"></script>
+    <script src="./homeQuantityToggle.js" type="module"></script>
+   
+</body>
+
+</html>

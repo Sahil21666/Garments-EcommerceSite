@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .searchBox {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .inputContainer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .inputBox {
+            padding: 10px;
+            font-size: 16px;
+            width: 200px;
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .resultcontainer {
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        
+        /* .resultcontainer div {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        } */
+
+       .images{
+        height: 340px;        
+        width: 210px;        
+
+       }
+       .productContainerouter{
+        display: flex;
+        flex-direction: row;
+        /* overflow: hidden; */
+       }
+       .productContainer {
+        flex-direction: row;
+        padding: 40px;
+       }
+
+       
+    </style>
+    </style>
+</head>
+
+<body>
+    <div class="SearchBox" >
+        <div class="inputcontainer">
+            <input class="InputBox" type="text">
+            <button><i
+                class=" fa fa-search"></i></button>
+        </div>
+        <div class="resultcontainer" id="resultcontainer">
+           
+        </div>
+    </div>
+
+    <script src="Search.js" type="module"></script>
+</body>
+
+</html>

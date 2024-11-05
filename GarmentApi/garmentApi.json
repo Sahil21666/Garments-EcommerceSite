@@ -1,5 +1,5 @@
 {
-   "Leggings": [
+    "Leggings": [
         {
             "id": 1,
             "name": "churidar leggings - Black",
@@ -10,7 +10,7 @@
                 "side_view_2": "../images/leggings5.jpg"
             },
             "rating": 4.9,
-            "price": 499.00,
+            "price": 400.00,
             "category": "Leggings",
             "description": "",
             "stock": 50
@@ -19,13 +19,13 @@
             "id": 2,
             "name": "churidar leggings - White",
             "image": {
-                "main": "",
-                "back": "",
-                "side_view_1": "",
-                "side_view_2": ""
+                "main": "../images/white leggings1.jpg",
+                "back": "../images/white leggings2.jpg",
+                "side_view_1": "../images/white leggings3.jpg",
+                "side_view_2": "../images/white leggings4.jpg"
             },
             "rating": 4.9,
-            "price": 499.00,
+            "price": 400.00,
             "category": "Leggings",
             "description": "",
             "stock": 50
@@ -34,13 +34,13 @@
             "id": 3,
             "name": "churidar leggings - Frenchwine",
             "image": {
-                "main": "",
-                "back": "",
-                "side_view_1": "",
-                "side_view_2": ""
+                "main": "../images/frenchwine lenggings1.jpg",
+                "back": "../images/frenchwine lenggings2.jpg",
+                "side_view_1": "../images/frenchwine lenggings3.jpg",
+                "side_view_2": "../images/frenchwine lenggings4.jpg"
             },
             "rating": 4.9,
-            "price": 499.00,
+            "price": 500.00,
             "category": "Leggings",
             "description": "",
             "stock": 50
@@ -49,13 +49,13 @@
             "id": 4,
             "name": "churidar leggings - Deep skin",
             "image": {
-                "main": "",
-                "back": "",
-                "side_view_1": "",
-                "side_view_2": ""
+                "main": "../images/deep skin leggings1.jpg",
+                "back": "../images/deep skin leggings2.jpg",
+                "side_view_1": "../images/deep skin leggings3.jpg",
+                "side_view_2": "../images/deep skin leggings4.jpg"
             },
             "rating": 4.9,
-            "price": 499.00,
+            "price": 500.00,
             "category": "Leggings",
             "description": "",
             "stock": 50
@@ -64,13 +64,13 @@
             "id": 5,
             "name": "churidar leggings - navy",
             "image": {
-                "main": "",
-                "back": "",
-                "side_view_1": "",
-                "side_view_2": ""
+                "main": "../images/navy leggings1.jpg",
+                "back": "../images/navy leggings2.jpg",
+                "side_view_1": "../images/navy leggings3.jpg",
+                "side_view_2": "../images/navy leggings4.jpg"
             },
             "rating": 4.9,
-            "price": 499.00,
+            "price": 400.00,
             "category": "Leggings",
             "description": "",
             "stock": 50
@@ -79,13 +79,13 @@
             "id": 6,
             "name": "churidar leggings - cream",
             "image": {
-                "main": "",
-                "back": "",
-                "side_view_1": "",
-                "side_view_2": ""
+                "main": "../images/cream leggings1.jpg",
+                "back": "../images/cream leggings2.jpg",
+                "side_view_1": "../images/cream leggings3.jpg",
+                "side_view_2": "../images/cream leggings4.jpg"
             },
             "rating": 4.9,
-            "price": 499.00,
+            "price": 300.00,
             "category": "Leggings",
             "description": "",
             "stock": 50
@@ -94,13 +94,13 @@
             "id": 7,
             "name": "churidar leggings - red",
             "image": {
-                "main": "",
-                "back": "",
-                "side_view_1": "",
-                "side_view_2": ""
+                "main": "../images/red leggings1.jpg",
+                "back": "../images/red leggings2.jpg",
+                "side_view_1": "../images/red leggings3.jpg",
+                "side_view_2": "../images/red leggings4.jpg"
             },
             "rating": 4.9,
-            "price": 499.00,
+            "price": 400.00,
             "category": "Leggings",
             "description": "",
             "stock": 50
@@ -109,30 +109,30 @@
             "id": 8,
             "name": "churidar leggings - green",
             "image": {
-                "main": "",
-                "back": "",
-                "side_view_1": "",
-                "side_view_2": ""
+                "main": "../images/green leggings1.jpg",
+                "back": "../images/green leggings2.jpg",
+                "side_view_1": "../images/green leggings3.jpg",
+                "side_view_2": "../images/green leggings4.jpg"
             },
             "rating": 4.9,
-            "price": 499.00,
+            "price": 400.00,
             "category": "Leggings",
             "description": "",
             "stock": 50
         }
     ],
-   "Jeggings": [
+    "Jeggings": [
         {
             "id": 9,
             "name": "Jeggings-Texas Blue",
             "image": {
-                "main": "",
-                "back": "",
-                "side_view_1": "",
-                "side_view_2": ""
+                "main": "../images/jeggings texas blue main.webp",
+                "back": "../images/jeggings texas blue back.webp",
+                "side_view_1": "../images/jeggings texas blue side1webp.webp",
+                "side_view_2": "../images/je.webp"
             },
             "rating": 4.9,
-            "price": 499.00,
+            "price": 400.00,
             "category": "Jeggings",
             "description": "",
             "stock": 50
@@ -141,13 +141,13 @@
             "id": 10,
             "name": "Jeggings-Regular Blue",
             "image": {
-                "main": "",
-                "back": "",
-                "side_view_1": "",
-                "side_view_2": ""
+                "main": "../images/jeggings regular blue main.webp",
+                "back": "../images/jeggings regular blue back.webp",
+                "side_view_1": "../images/jeggings regular blue side1webp.webp",
+                "side_view_2": "../images/je1.webp"
             },
             "rating": 4.9,
-            "price": 499.00,
+            "price": 400.00,
             "category": "Jeggings",
             "description": "",
             "stock": 50
@@ -156,30 +156,30 @@
             "id": 11,
             "name": "Jeggings-Regular Black",
             "image": {
-                "main": "",
-                "back": "",
-                "side_view_1": "",
-                "side_view_2": ""
+                "main": "../images/jeggings regular black main.webp",
+                "back": "../images/jeggings regular black back.webp",
+                "side_view_1": "../images/jeggings regular black side1webp.webp",
+                "side_view_2": "../images/je2.webp"
             },
             "rating": 4.9,
-            "price": 499.00,
+            "price": 500.00,
             "category": "Jeggings",
             "description": "",
             "stock": 50
         }
     ],
-   "Fashion_Wear": [
+    "Fashion_Wear": [
         {
             "id": 12,
             "name": "Woven Kurti Pant-Black",
             "image": {
-                "main": "",
-                "back": "",
-                "side_view_1": "",
-                "side_view_2": ""
+                "main": "../images/fw woven kurti black main.webp",
+                "back": "../images/fw woven kurti black back.webp",
+                "side_view_1": "../images/fw woven kurti black  side1.webp",
+                "side_view_2": "../images/fw woven kurti black  side2.webp"
             },
             "rating": 4.9,
-            "price": 499.00,
+            "price": 400.00,
             "category": "Fashion Wears",
             "description": "",
             "stock": 50
@@ -188,13 +188,13 @@
             "id": 13,
             "name": "Woven Kurti Pant-Cream",
             "image": {
-                "main": "",
-                "back": "",
-                "side_view_1": "",
-                "side_view_2": ""
+                "main": "../images/fw woven kurti cream main.webp",
+                "back": "../images/fw woven kurti cream back.webp",
+                "side_view_1": "../images/fw woven kurti cream  side1.webp",
+                "side_view_2": "../images/fw woven kurti cream  side2.webp"
             },
             "rating": 4.9,
-            "price": 499.00,
+            "price": 500.00,
             "category": "Fashion Wears",
             "description": "",
             "stock": 50
@@ -203,13 +203,13 @@
             "id": 14,
             "name": "Woven Kurti Pant-Sand",
             "image": {
-                "main": "",
-                "back": "",
-                "side_view_1": "",
-                "side_view_2": ""
+                "main": "../images/fw woven kurti sand main.webp",
+                "back": "../images/fw woven kurti sand back.webp",
+                "side_view_1": "../images/fw woven kurti sand  side1.webp",
+                "side_view_2": "../images/fw woven kurti sand  side2.webp"
             },
             "rating": 4.9,
-            "price": 499.00,
+            "price": 500.00,
             "category": "Fashion Wears",
             "description": "",
             "stock": 50
@@ -218,13 +218,13 @@
             "id": 15,
             "name": "Palazzo-Maroon",
             "image": {
-                "main": "",
-                "back": "",
-                "side_view_1": "",
-                "side_view_2": ""
+                "main": "../images/fw woven kurti pallazo main.webp",
+                "back": "../images/fw woven kurti pallazo back.webp",
+                "side_view_1": "../images/fw woven kurti pallazo  side1.webp",
+                "side_view_2": "../images/fw woven kurti pallazo  side2.webp"
             },
             "rating": 4.9,
-            "price": 499.00,
+            "price": 500.00,
             "category": "Fashion Wears",
             "description": "",
             "stock": 50
@@ -233,13 +233,13 @@
             "id": 16,
             "name": "Woven Kurti Pant-Frenchwine",
             "image": {
-                "main": "",
-                "back": "",
-                "side_view_1": "",
-                "side_view_2": ""
+                "main": "../images/fw woven kurti frenchwine main.webp",
+                "back": "../images/fw woven kurti frenchwine back.webp",
+                "side_view_1": "../images/fw woven kurti frenchwine  side1.webp",
+                "side_view_2": "../images/fw woven kurti frenchwine  side2.webp"
             },
             "rating": 4.9,
-            "price": 499.00,
+            "price": 400.00,
             "category": "Fashion Wears",
             "description": "",
             "stock": 50
@@ -248,13 +248,13 @@
             "id": 17,
             "name": "Casual Pant-Cream",
             "image": {
-                "main": "",
-                "back": "",
-                "side_view_1": "",
-                "side_view_2": ""
+                "main": "../images/fw woven kurti ccream main.webp",
+                "back": "../images/fw woven kurti ccream back.webp",
+                "side_view_1": "../images/fw woven kurti ccream  side1.webp",
+                "side_view_2": "../images/fw woven kurti ccream  side2.webp"
             },
             "rating": 4.9,
-            "price": 499.00,
+            "price": 400.00,
             "category": "Fashion Wears",
             "description": "",
             "stock": 50
@@ -263,13 +263,13 @@
             "id": 18,
             "name": "Woven Kurti Pant-Deep Skin",
             "image": {
-                "main": "",
-                "back": "",
-                "side_view_1": "",
-                "side_view_2": ""
+                "main": "../images/fw woven kurti deep main.webp",
+                "back": "../images/fw woven kurti deep back.webp",
+                "side_view_1": "../images/fw woven kurti deep  side1.webp",
+                "side_view_2": "../images/fw woven kurti deep  side2.webp"
             },
             "rating": 4.9,
-            "price": 499.00,
+            "price": 400.00,
             "category": "Fashion Wears",
             "description": "",
             "stock": 50
@@ -278,16 +278,939 @@
             "id": 19,
             "name": "Woven Kurti Pant-Honey",
             "image": {
-                "main": "",
-                "back": "",
+                "main": "../images/fw woven kurti honey main.webp",
+                "back": "../images/fw woven kurti honey back.webp",
+                "side_view_1": "../images/fw woven kurti honey  side1.webp",
+                "side_view_2": "../images/fw woven kurti honey  side2.webp"
+            },
+            "rating": 4.9,
+            "price": 400.00,
+            "category": "Fashion Wears",
+            "description": "",
+            "stock": 50
+        }
+    ],
+    "Inner_Wear": [
+        {
+            "id": 20,
+            "name": "Hipster (IE-Invisible Elastic) (PO3)-Combo-1",
+            "image": {
+                "main": "../images/hipster main.webp",
+                "back": "../images/hipster back.webp",
+                "side_view_1": "../images/hipster side1.webp",
+                "side_view_2": "../images/hipster side2.webp"
+            },
+            "rating": 4.9,
+            "price": 400.00,
+            "category": "Inner Wear",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 21,
+            "name": "High Waist Panty(OE-Outer Elastic) (PO3)-Combo-1",
+            "image": {
+                "main": "../images/high waist panty main.webp",
+                "back": "../images/high waist panty back.webp",
+                "side_view_1": "../images/high waist panty side1.webp",
+                "side_view_2": "../images/high waist panty side2.webp"
+            },
+            "rating": 4.9,
+            "price": 300.00,
+            "category": "Inner Wear",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 22,
+            "name": "Bikini (PO3)-Combo-1",
+            "image": {
+                "main": "../images/bikini main.webp",
+                "back": "../images/bikini back.webp",
+                "side_view_1": "../images/bikini side1.webp",
+                "side_view_2": "../images/bikini side2.webp"
+            },
+            "rating": 4.9,
+            "price": 300.00,
+            "category": "Inner Wear",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 23,
+            "name": "Body Fit ( Moulded Encircle Bra)-Mauve",
+            "image": {
+                "main": "../images/bra mauve main.webp",
+                "back": "../images/bra mauve back.webp",
+                "side_view_1": "../images/bra mauve side1.webp",
+                "side_view_2": "../images/bra mauve side2.webp"
+            },
+            "rating": 4.9,
+            "price": 300.00,
+            "category": "Inner Wear",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 24,
+            "name": "Body Fit ( Moulded Encircle Bra)-Black",
+            "image": {
+                "main": "../images/bra mauve main.webp",
+                "back": "../images/bra mauve back.webp",
+                "side_view_1": "../images/bra mauve side1.webp",
+                "side_view_2": "../images/bra mauve side2.webp"
+            },
+            "rating": 4.9,
+            "price": 300.00,
+            "category": "Inner Wear",
+            "description": "",
+            "stock": 30
+        },
+        {
+            "id": 25,
+            "name": "Yoga Shorts-Black",
+            "image": {
+                "main": "../images/yoga shorts black main.webp",
+                "back": "../images/yoga shorts black back.webp",
+                "side_view_1": "../images/yoga shorts black side1.webp",
+                "side_view_2": "../images/yoga shorts black side2.webp"
+            },
+            "rating": 4.9,
+            "price": 149.00,
+            "category": "Inner Wear",
+            "description": "",
+            "stock": 30
+        },
+        {
+            "id": 26,
+            "name": "Yoga Shorts-Grey",
+            "image": {
+                "main": "../images/yoga shorts grey main.webp",
+                "back": "../images/yoga shorts grey back.webp",
+                "side_view_1": "../images/yoga shorts grey side1.webp",
+                "side_view_2": "../images/yoga shorts grey side2.webp"
+            },
+            "rating": 4.9,
+            "price": 149.00,
+            "category": "Inner Wear",
+            "description": "",
+            "stock": 10
+        },
+        {
+            "id": 27,
+            "name": "Yoga Shorts-Navy",
+            "image": {
+                "main": "../images/yoga shorts navy main.webp",
+                "back": "../images/yoga shorts navy back.webp",
+                "side_view_1": "../images/yoga shorts navy side1.webp",
+                "side_view_2": "../images/yoga shorts navy side2.webp"
+            },
+            "rating": 4.9,
+            "price": 149.00,
+            "category": "Inner Wear",
+            "description": "",
+            "stock": 20
+        }
+    ],
+    "Active_Wear": [
+        {
+            "id": 28,
+            "name": "Tee-Black",
+            "image": {
+                "main": "../images/Tee black main.webp",
+                "back": "../images/Tee black back.webp",
+                "side_view_1": "../images/Tee black side1.webp",
+                "side_view_2": "../images/Tee black side2.webp"
+            },
+            "rating": 4.9,
+            "price": 400.00,
+            "category": "Active Wear",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 29,
+            "name": "Tee-Royal Blue",
+            "image": {
+                "main": "../images/Tee blue main.webp",
+                "back": "../images/Tee blue back.webp",
+                "side_view_1": "../images/Tee blue side1.webp",
+                "side_view_2": "../images/Tee blue side2.webp"
+            },
+            "rating": 4.9,
+            "price": 400.00,
+            "category": "Active Wear",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 30,
+            "name": "Tee-White",
+            "image": {
+                "main": "../images/Tee white main.webp",
+                "back": "../images/Tee white back.webp",
+                "side_view_1": "../images/Tee white side1.webp",
+                "side_view_2": "../images/Tee white side2.webp"
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Active Wear",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 31,
+            "name": "Tee-Green",
+            "image": {
+                "main": "../images/Tee green main.webp",
+                "back": "../images/Tee green back.webp",
+                "side_view_1": "../images/Tee green side1.webp",
+                "side_view_2": "../images/Tee green side2.webp"
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Active Wear",
+            "description": "",
+            "stock": 50
+        }
+    ],
+    "Accesories": [
+        {
+            "id": 32,
+            "name": "Scarf -black",
+            "image": {
+                "main": "../images/scarf black main.jpg",
+                "back": "../images/scarf black back.jpg",
+                "side_view_1": "../images/scarf black side1.jpg",
+                "side_view_2": "../images/scarf black side2.jpg"
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Accesories",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 33,
+            "name": "Scarf-white",
+            "image": {
+                "main": "../images/scarf white main.jpg.crdownload",
+                "back": "../images/scarf white back.webp",
+                "side_view_1": "../images/scarf white side1.webp",
+                "side_view_2": "../images/scarf white side2.webp"
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Accesories",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 34,
+            "name": "Scarf -green",
+            "image": {
+                "main": "../images/scarf green back.jpg",
+                "back": "../images/scarf green main.jpg",
+                "side_view_1": "../images/scarf green side1.jpg",
+                "side_view_2": "../images/scarf green side2.jpg"
+            },
+            "rating": 4.9,
+            "price": 400.00,
+            "category": "Accesories",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 35,
+            "name": "scarf-cream",
+            "image": {
+                "main": "../images/scarf cream main.jpg",
+                "back": "../images/scarf cream back.jpg",
+                "side_view_1": "../images/scarf cream side1.jpg",
+                "side_view_2": "../images/scarf cream side2.jpg"
+            },
+            "rating": 4.9,
+            "price": 400.00,
+            "category": "Accesories",
+            "description": "",
+            "stock": 50
+        }
+    ],
+    "Blouse": [
+        {
+            "id": 36,
+            "name": "Blouse regular sleeve navy",
+            "image": {
+                "main": "../images/boluse regular navy main.webp",
+                "back": "../images/boluse regular navy back.webp",
+                "side_view_1": "../images/boluse regular navy side1.webp",
+                "side_view_2": "../images/boluse regular navy side2.webp"
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Blouse",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 37,
+            "name": "Blouse regular sleeve golden",
+            "image": {
+                "main": "../images/blouse regular gold main.webp",
+                "back": "../images/blouse regular gold backwebp.webp",
+                "side_view_1": "../images/blouse regular gold side1.webp",
+                "side_view_2": "../images/blouse regular gold side2.webp"
+            },
+            "rating": 4.9,
+            "price": 300.00,
+            "category": "Blouse",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 38,
+            "name": "Blouse regular sleeve rose gold",
+            "image": {
+                "main": "../images/blouse regular rose gold main.webp",
+                "back": "../images/blouse regular rose gold back.webp",
+                "side_view_1": "../images/blouse regular rose gold side1.webp",
+                "side_view_2": "../images/blouse regular rose gold side2.webp"
+            },
+            "rating": 4.9,
+            "price": 300.00,
+            "category": "Blouse",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 39,
+            "name": "Blouse regular sleeve plum",
+            "image": {
+                "main": "../images/blouse regular plum main.webp",
+                "back": "../images/blouse regular plum back.webp",
+                "side_view_1": "../images/blouse regular plum side1.webp",
+                "side_view_2": "../images/blouse regular plum side2.webp"
+            },
+            "rating": 4.9,
+            "price": 300.00,
+            "category": "Blouse",
+            "description": "",
+            "stock": 50
+        }
+    ],
+    "Bermudas": [
+        {
+            "id": 40,
+            "name": "bermuda -black",
+            "image": {
+                "main": "../images/bermuda black main.webp",
+                "back": "../images/bermuda black back.webp",
+                "side_view_1": "../images/bermuda black side1.webp",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 400.00,
+            "category": "Bermudas",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 41,
+            "name": "Bermuda -Grey",
+            "image": {
+                "main": "../images/bermuda grey main.webp",
+                "back": "../images/bermuda grey back.webp",
+                "side_view_1": "../images/bermuda grey side1.webp",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 400.00,
+            "category": "Bermudas",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 42,
+            "name": "Bermuda -Olive",
+            "image": {
+                "main": "../images/bermuda olive main.webp",
+                "back": "../images/bermuda olive back.webp",
+                "side_view_1": "../images/bermuda olive side1.webp",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 300.00,
+            "category": "Bermudas",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 43,
+            "name": "Bermuda -Navy",
+            "image": {
+                "main": "../images/bermudas navy main.webp",
+                "back": "../images/bermudas navy back.webp",
+                "side_view_1": "../images/bermudas navy side1.webp",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 400.00,
+            "category": "Bermudas",
+            "description": "",
+            "stock": 50
+        }
+    ],
+    "Capri": [
+        {
+            "id": 44,
+            "name": "Capri -Olive",
+            "image": {
+                "main": "../images/capri olive main.webp",
+                "back": "../images/capri olive back.webp",
+                "side_view_1": "../images/capri olive side1.webp",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Capri",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 45,
+            "name": "Capri -Grey",
+            "image": {
+                "main": "../images/Capri Grey main.webp",
+                "back": "../images/Capri grey back.webp",
+                "side_view_1": "../images/Capri grey side1.webp",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Capri",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 46,
+            "name": "Capri -Black",
+            "image": {
+                "main": "../images/Capri black main.webp",
+                "back": "../images/Capri black back.webp",
+                "side_view_1": "../images/Capri black side1.webp",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Capri",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 47,
+            "name": "Capri -Navy",
+            "image": {
+                "main": "../images/Capri navy main.webp",
+                "back": "../images/Capri navy back.webp",
+                "side_view_1": "../images/Capri navy side1.webp",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Capri",
+            "description": "",
+            "stock": 50
+        }
+    ],
+    "Track_Pant": [
+        {
+            "id": 48,
+            "name": "Track pant -navy",
+            "image": {
+                "main": "../images/Track pant navy main.webp",
+                "back": "../images/Track pant navy back.webp",
                 "side_view_1": "",
                 "side_view_2": ""
             },
             "rating": 4.9,
             "price": 499.00,
-            "category": "Fashion Wears",
+            "category": "Track Pant",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 49,
+            "name": "Track pant -black",
+            "image": {
+                "main": "../images/Track pant black main.webp",
+                "back": "../images/Track pant black back.webp",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Track Pant",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 50,
+            "name": "Track pant -Olive",
+            "image": {
+                "main": "../images/Track pant olive main.webp",
+                "back": "../images/Track pant olive back.webp",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Track Pant",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 51,
+            "name": "Track pant -Grey",
+            "image": {
+                "main": "../images/Track pant grey main.webp",
+                "back": "../images/Track pant grey back.webp",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Track Pant",
+            "description": "",
+            "stock": 50
+        }
+    ],
+    "Track_pant_slim_fit": [
+        {
+            "id": 52,
+            "name": "Track Pant slim Fit -Black",
+            "image": {
+                "main": "../images/track pant slim fit bglack main.jpg",
+                "back": "../images/track pant slim fit black back.webp",
+                "side_view_1": "../images/track pant slim fit black side1.webp",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Track pant slim fit",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 53,
+            "name": "Track Pant slim Fit -Grey",
+            "image": {
+                "main": "../images/track pant slim fit grey main.webp",
+                "back": "../images/track pant slim fit grey back.webp",
+                "side_view_1": "../images/track pant slim fit grey side1.webp",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Track pant slim fit",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 54,
+            "name": "Track Pant slim Fit -Olive",
+            "image": {
+                "main": "../images/track pant slim fit Olive main.webp",
+                "back": "../images/track pant slim fit Olive back.webp",
+                "side_view_1": "../images/track pant slim fit Olive side1.webp",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Track pant slim fit",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 55,
+            "name": "Track Pant slim Fit -Navy",
+            "image": {
+                "main": "../images/track pant slim fit navy main.jpg",
+                "back": "../images/track pant slim fit navy back.webp",
+                "side_view_1": "../images/track pant slim fit navy side1.webp",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Track pant slim fit",
+            "description": "",
+            "stock": 50
+        }
+    ],
+    "Joggers": [
+        {
+            "id": 56,
+            "name": "Joggers -navy",
+            "image": {
+                "main": "../images/Joggers navy main.webp",
+                "back": "../images/Joggers navy back.webp",
+                "side_view_1": "../images/Joggers navy side1.webp",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Joggers",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 57,
+            "name": "Joggers -Black",
+            "image": {
+                "main": "../images/Joggers black main.webp",
+                "back": "../images/Joggers black back.webp",
+                "side_view_1": "../images/Joggers black side1.webp",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Joggers",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 58,
+            "name": "Joggers -Grey",
+            "image": {
+                "main": "../images/Joggers grey main.webp",
+                "back": "../images/Joggers grey back.webp",
+                "side_view_1": "../images/Joggers grey side1.webp",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Joggers",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 59,
+            "name": "Blouse regular sleeve plum",
+            "image": {
+                "main": "../images/Joggers olive main.webp",
+                "back": "../images/Joggers olive back.webp",
+                "side_view_1": "../images/Joggers olive side1.webp",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 499.00,
+            "category": "Joggers",
+            "description": "",
+            "stock": 50
+        }
+    ],
+    "new_arrival": [
+        {
+            "id": 60,
+            "name": "t-shirt-grey",
+            "image": {
+                "main": "../images/new arrival 1.jpg",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 300.00,
+            "category": "new-arrival",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 61,
+            "name": "t-shirt-white",
+            "image": {
+                "main": "../images/new arrival 2.jpg",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 300.00,
+            "category": "new-arrival",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 62,
+            "name": "top-maroon",
+            "image": {
+                "main": "../images/new arrival 3.jpg",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 400.00,
+            "category": "new-arrival",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 63,
+            "name": "top-clay",
+            "image": {
+                "main": "../images/new arrival 4.jpg",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 400.00,
+            "category": "new-arrival",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 64,
+            "name": "designer saree",
+            "image": {
+                "main": "../images/new arrival 5.jpg",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 400.00,
+            "category": "new-arrival",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 65,
+            "name": "fashion-scarf-woomen",
+            "image": {
+                "main": "../images/new arrival 6.jpg",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 300.00,
+            "category": "new-arrival",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 66,
+            "name": "fashion-scarf-men",
+            "image": {
+                "main": "../images/new arrival 7.jpg",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 300.00,
+            "category": "new-arrival",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 67,
+            "name": "dress-white",
+            "image": {
+                "main": "../images/new arrival 8.jpg",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 500.00,
+            "category": "new-arrival",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 67,
+            "name": "hand-sleves",
+            "image": {
+                "main": "../images/new arrival 9.jpg",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 300.00,
+            "category": "new-arrival",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 67,
+            "name": "knee-sleves",
+            "image": {
+                "main": "../images/new arrival 10.jpg",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 300.00,
+            "category": "new-arrival",
+            "description": "",
+            "stock": 50
+        }
+    ],
+    "best_seller": [
+        {
+            "id": 68,
+            "name": "Pant women -grey",
+            "image": {
+                "main": "../images/best seller1.jpg",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 400.00,
+            "category": "best-seller",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 69,
+            "name": "Pant women -Royal Blue",
+            "image": {
+                "main": "../images/best seller2.jpg",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 400.00,
+            "category": "best-seller",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 70,
+            "name": "Pant women -Olive grey",
+            "image": {
+                "main": "../images/best seller3.jpg",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 500.00,
+            "category": "best-seller",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 71,
+            "name": "Pant women -Olive",
+            "image": {
+                "main": "../images/best seller4.jpg",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 500.00,
+            "category": "best-seller",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 72,
+            "name": "Pant women -Black",
+            "image": {
+                "main": "../images/best seller5.jpg",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 500.00,
+            "category": "best-seller",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 73,
+            "name": "Pant women -Black designer",
+            "image": {
+                "main": "../images/best seller6.jpg",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 400.00,
+            "category": "best-seller",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 74,
+            "name": "Pajama women -White",
+            "image": {
+                "main": "../images/best seller7.jpg",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 400.00,
+            "category": "best-seller",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 75,
+            "name": "Pant women -Black designer",
+            "image": {
+                "main": "../images/best seller8.jpg",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 400.00,
+            "category": "best-seller",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 76,
+            "name": "Pant women -Clay",
+            "image": {
+                "main": "../images/best seller9.jpg",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 400.00,
+            "category": "best-seller",
+            "description": "",
+            "stock": 50
+        },
+        {
+            "id": 77,
+            "name": "Pant women -Olive",
+            "image": {
+                "main": "../images/best seller10.jpg",
+                "back": "",
+                "side_view_1": "",
+                "side_view_2": ""
+            },
+            "rating": 4.9,
+            "price": 400.00,
+            "category": "best-seller",
             "description": "",
             "stock": 50
         }
     ]
+    
 }

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(10, 27, 21);
+    margin-top: 5%;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.max-w-lg {
+    max-width: 30rem;
+}
+
+.bg-gray-100 {
+    background-color: #f3f4f6;
+}
+
+.rounded-xl {
+    border-radius: 1rem;
+}
+
+.p-10 {
+    padding: 2.5rem;
+}
+
+.border {
+    border-width: 1px;
+}
+
+.border-black-10 {
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.max-w-100px {
+    max-width: 100px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
+.text-base {
+    font-size: 1rem;
+}
+
+.text-black-60 {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.text-primary {
+    color: blue;
+}
+
+.transition-all {
+    transition: all 0.2s ease;
+}
+
+.duration-200 {
+    transition-duration: 0.2s;
+}
+
+.hover-underline:hover {
+    text-decoration: underline;
+}
+
+.mt-8 {
+    margin-top: 2rem;
+}
+
+.space-y-5 > * + * {
+    margin-top: 1.25rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.text-red-600 {
+    color: red;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ddd;
+}
+
+button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+    </style>
+</head>
+<body>
+    <div class="flex items-center justify-center">
+        <div class="mx-auto w-full max-w-lg bg-gray-100 rounded-xl p-10 border border-black-10">
+            <div class="mb-2 flex justify-center">
+                <span class="inline-block w-full max-w-100px">
+                    <img src="logo.png" alt="Logo" style="width: 100%;">
+                </span>
+            </div>
+            <h2 class="text-center text-2xl font-bold leading-tight">Sign up to create account</h2>
+            <p class="mt-2 text-center text-base text-black-60">
+                Already have an account?&nbsp;
+                <a href="/login" class="font-medium text-primary transition-all duration-200 hover-underline">
+                    Sign In
+                </a>
+            </p>
+            <p id="error-message" class="text-red-600 mt-8 text-center"></p>
+
+            <form id="signup-form" action="/user" method="post">
+                <div class="space-y-5">
+                    <div>
+                        <label for="name">Full Name: </label>
+                        <input type="text" id="name"  name ="name" placeholder="Enter your full name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email: </label>
+                        <input type="email" id="email"  name ="email" placeholder="Enter your email" required>
+                    </div>
+                    <div>
+                        <label for="password">Password: </label>
+                        <input type="password" id="password"  name ="password" placeholder="Enter your password" required>
+                    </div>
+                    <button type="submit" class="w-full">Create Account</button>
+                </div>
+            </form>
+            <script src="./connectToDB.js"></script>
+        </div>
+    </div>
+</body>
+</html>
