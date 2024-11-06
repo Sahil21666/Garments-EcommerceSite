@@ -5,7 +5,7 @@ var mongoose = require("mongoose")
 //     .catch((err) => console.log(err));
 const path = require("path");
 const app = express();
-const port = 80;
+const port = 8000;
 
 
 const bodyParser = require('body-parser')
